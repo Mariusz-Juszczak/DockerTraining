@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+RUN apk add python3
+
+CMD echo "Custom hello"
